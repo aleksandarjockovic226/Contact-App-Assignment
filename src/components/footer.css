@@ -1,0 +1,44 @@
+#footer {
+  width: 24vw;
+  height: 3.5em;
+  display: flex;
+}
+.container {
+  width: 100%;
+  display: grid;
+  align-items: center;
+}
+input {
+  border: 1px solid rgb(240, 240, 240);
+  width: auto;
+  height: 100%;
+  background-color: rgb(240, 240, 240);
+  padding: 0px 20px;
+  color: rgb(29, 29, 29);
+}
+.inputNumber {
+  border-top: 1px solid white;
+}
+#btn {
+  border: 1px solid rgb(65, 65, 65);
+  background: rgb(65, 65, 65);
+  text-align: center;
+  padding: 10px;
+  color: white;
+  cursor: pointer;
+}
+*:focus {
+    outline: none;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}

@@ -1,0 +1,9 @@
+#header{
+    width: 24vw;
+    height: 3.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(240, 240, 240);
+    
+}
